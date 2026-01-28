@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>courses - page</title>
+    <meta
+        name="description"
+        content="A Simple Dashboard mock-up by 'Elzero' one of four design's in 
+    the 'Elzero-Web-School' Youtube Channel This is The Courses Page"
+    />
+    <!-- Adding varies file's -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/my-framework.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Adding Font from Google-Font's -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Roboto:ital,wght@0,100..900;1,100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Smooch+Sans:wght@100..900&display=swap"
+        rel="stylesheet"
+    />
+</head>
+<body>
+    <!-- Start Page -->
+    <div class="page d-flex">
+    <!-- Start Side-Bar -->
+    <div class="side-bar bg-white p-20 p-relative">
+        <h3 class="p-relative txt-c mt-0">Elzero</h3>
+        <ul>
+          <!-- 1 -->
+          <li>
+            <a
+              class="d-flex aling-c fs-14 c-black rad-6 p-10"
+              href="index.html"
+            >
+              <i class="fa-solid fa-chart-bar fa-fw"></i>
+              <span class="hide-mobile">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <!-- 2 -->
+            <a
+              class=" d-flex aling-c fs-14 c-black rad-6 p-10"
+              href="setting.html"
+            >
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span class="hide-mobile">Setting</span>
+            </a>
+          </li>
+          <!-- 3 -->
+          <li>
+            <a
+              class="d-flex aling-c fs-14 c-black rad-6 p-10"
+              href="profile.html"
+            >
+              <i class="fa-solid fa-user fa-fw"></i>
+              <span class="hide-mobile">Profile</span>
+            </a>
+          </li>
+          <!-- 4 -->
+          <li>
+            <a
+              class="d-flex aling-c fs-14 c-black rad-6 p-10"
+              href="projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span class="hide-mobile">Projects</span>
+            </a>
+          </li>
+          <!-- 5 -->
+          <li>
+            <a
+              class="active d-flex aling-c fs-14 c-black rad-6 p-10"
+              href="courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span class="hide-mobile">Courses</span>
+            </a>
+          </li>
+          <!-- 6 -->
+          <li>
+            <a
+              class="d-flex aling-c fs-14 c-black rad-6 p-10"
+              href="friends.html"
+            >
+              <i class="fa-solid fa-circle-user fa-fw"></i>
+              <span class="hide-mobile">Friends</span>
+            </a>
+          </li>
+          <!-- 7 -->
+          <li>
+            <a
+              class="d-flex aling-c fs-14 c-black rad-6 p-10"
+              href="files.html"
+            >
+              <i class="fa-solid fa-file fa-fw"></i>
+              <span class="hide-mobile">Files</span>
+            </a>
+          </li>
+          <!-- 8 -->
+          <li>
+            <a
+              class="d-flex aling-c fs-14 c-black rad-6 p-10"
+              href="plans.html"
+            >
+              <i class="fa-solid fa-credit-card fa-fw"></i>
+              <span class="hide-mobile">Plans</span>
+            </a>
+          </li>
+        </ul>
+    </div>
+    <!-- End Side-Bar -->
+    <!-- Start Content -->
+    <div class="content w-full">
+        <!-- Start Head -->
+        <div class="head bg-white p-15 between-flex">
+        <div class="search p-relative">
+            <input
+                class="p-10 rad-10"
+                type="search"
+                placeholder="Type A Keyword"
+            />
+        </div>
+        <div class="icons d-flex align-c">
+                <span class="notification p-relative">
+                    <i class="fa-solid fa-bell fa-lg"></i>
+                </span>
+                <img src="imgs/avatar.png" alt="avatar" />
+        </div>
+        </div>
+        <!-- End Head -->
+        <h1 class="p-relative">Courses</h1>
+        <div class="courses-page m-20 d-grid gap-20">
+            <!-- 1 -->
+            <div class="course bg-white rad-6 p-relative">
+                <img class="cover" src="imgs/course-01.jpg" alt="#">
+                <img class="instructor" src="imgs/team-01.png" alt="#">
+                <div class="p-20">
+                    <h4 class="m-0">Mastering Web Design</h4>
+                    <p class="description c-gray mt-15 fs-14">
+                        Master The Art Of Web Design And Mocking, Prototyping And Creating Web Design Architecture 
+                    </p>
+                </div>
+                <div class="info p-15 p-relative between-flex">
+                    <span class="title bg-blue c-white btn-shape">Course Info</span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-user">950</i>
+                    </span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-dollar-sign">950</i>
+                    </span>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="course bg-white rad-6 p-relative">
+                <img class="cover" src="imgs/course-02.jpg" alt="#">
+                <img class="instructor" src="imgs/team-02.png" alt="#">
+                <div class="p-20">
+                    <h4 class="m-0">Data Structure And Algorithms</h4>
+                    <p class="description c-gray mt-15 fs-14">
+                        Master The Art Of Data Structure And Famus Algorithms Like Sorting Dividing And Conquering
+                    </p>
+                </div>
+                <div class="info p-15 p-relative between-flex">
+                    <span class="title bg-blue c-white btn-shape">Course Info</span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-user">1150</i>
+                    </span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-dollar-sign">210</i>
+                    </span>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="course bg-white rad-6 p-relative">
+                <img class="cover" src="imgs/course-03.jpg" alt="#">
+                <img class="instructor" src="imgs/team-01.png" alt="#">
+                <div class="p-20">
+                    <h4 class="m-0">Responsive Web Design</h4>
+                    <p class="description c-gray mt-15 fs-14">
+                        Master Responsive Web Design And Media Queries And Know Everything About Breakpoints
+                    </p>
+                </div>
+                <div class="info p-15 p-relative between-flex">
+                    <span class="title bg-blue c-white btn-shape">Course Info</span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-user">650</i>
+                    </span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-dollar-sign">90</i>
+                    </span>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="course bg-white rad-6 p-relative">
+                <img class="cover" src="imgs/course-04.jpg" alt="#">
+                <img class="instructor" src="imgs/team-03.png" alt="#">
+                <div class="p-20">
+                    <h4 class="m-0">Mastering Python</h4>
+                    <p class="description c-gray mt-15 fs-14">
+                        Master Python To Prepare For Data Science And AI And Automating Things In Your Life
+                    </p>
+                </div>
+                <div class="info p-15 p-relative between-flex">
+                    <span class="title bg-blue c-white btn-shape">Course Info</span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-user">950</i>
+                    </span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-dollar-sign">250</i>
+                    </span>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="course bg-white rad-6 p-relative">
+                <img class="cover" src="imgs/course-05.jpg" alt="#">
+                <img class="instructor" src="imgs/team-03.png" alt="#">
+                <div class="p-20">
+                    <h4 class="m-0">PHP Examples</h4>
+                    <p class="description c-gray mt-15 fs-14">
+                        PHP Tutorials And Examples And Practice On Web Application And Connecting With Databases
+                    </p>
+                </div>
+                <div class="info p-15 p-relative between-flex">
+                    <span class="title bg-blue c-white btn-shape">Course Info</span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-user">850</i>
+                    </span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-dollar-sign">150</i>
+                    </span>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="course bg-white rad-6 p-relative">
+                <img class="cover" src="imgs/course-02.jpg" alt="#">
+                <img class="instructor" src="imgs/team-02.png" alt="#">
+                <div class="p-20">
+                    <h4 class="m-0">Data Structure And Algorithms</h4>
+                    <p class="description c-gray mt-15 fs-14">
+                        Master The Art Of Data Structure And Famus Algorithms Like Sorting Dividing And Conquering
+                    </p>
+                </div>
+                <div class="info p-15 p-relative between-flex">
+                    <span class="title bg-blue c-white btn-shape">Course Info</span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-user">1150</i>
+                    </span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-dollar-sign">210</i>
+                    </span>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="course bg-white rad-6 p-relative">
+                <img class="cover" src="imgs/course-03.jpg" alt="#">
+                <img class="instructor" src="imgs/team-01.png" alt="#">
+                <div class="p-20">
+                    <h4 class="m-0">Responsive Web Design</h4>
+                    <p class="description c-gray mt-15 fs-14">
+                        Master Responsive Web Design And Media Queries And Know Everything About Breakpoints
+                    </p>
+                </div>
+                <div class="info p-15 p-relative between-flex">
+                    <span class="title bg-blue c-white btn-shape">Course Info</span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-user">650</i>
+                    </span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-dollar-sign">90</i>
+                    </span>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="course bg-white rad-6 p-relative">
+                <img class="cover" src="imgs/course-01.jpg" alt="#">
+                <img class="instructor" src="imgs/team-01.png" alt="#">
+                <div class="p-20">
+                    <h4 class="m-0">Mastering Web Design</h4>
+                    <p class="description c-gray mt-15 fs-14">
+                        Master The Art Of Web Design And Mocking, Prototyping And Creating Web Design Architecture 
+                    </p>
+                </div>
+                <div class="info p-15 p-relative between-flex">
+                    <span class="title bg-blue c-white btn-shape">Course Info</span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-user">850</i>
+                    </span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-dollar-sign">145</i>
+                    </span>
+                </div>
+            </div>
+            <!-- 9 -->
+            <div class="course bg-white rad-6 p-relative">
+                <img class="cover" src="imgs/course-05.jpg" alt="#">
+                <img class="instructor" src="imgs/team-03.png" alt="#">
+                <div class="p-20">
+                    <h4 class="m-0">PHP Examples</h4>
+                    <p class="description c-gray mt-15 fs-14">
+                        PHP Tutorials And Examples And Practice On Web Application And Connecting With Databases
+                    </p>
+                </div>
+                <div class="info p-15 p-relative between-flex">
+                    <span class="title bg-blue c-white btn-shape">Course Info</span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-user">850</i>
+                    </span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-dollar-sign">150</i>
+                    </span>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="course bg-white rad-6 p-relative">
+                <img class="cover" src="imgs/course-04.jpg" alt="#">
+                <img class="instructor" src="imgs/team-03.png" alt="#">
+                <div class="p-20">
+                    <h4 class="m-0">Mastering Python</h4>
+                    <p class="description c-gray mt-15 fs-14">
+                        Master Python To Prepare For Data Science And AI And Automating Things In Your Life
+                    </p>
+                </div>
+                <div class="info p-15 p-relative between-flex">
+                    <span class="title bg-blue c-white btn-shape">Course Info</span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-user">950</i>
+                    </span>
+                    <span class="c-gray">
+                        <i class="fa-solid fa-dollar-sign">250</i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Content -->
+  </body>
+</html>
